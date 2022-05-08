@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url("grid.css");
 
+body {
+    background-color: lightyellow;
+    font-family: monospace;
+}
+
 img {
 	max-width:100%;
 	height: auto;/*高さ自動*/
@@ -9,9 +14,14 @@ a {
     display:block;
     color: #666;
     text-decoration-line: none;
+    font-weight: bold;
 }
 a:hover { 
     color: #999;
+}
+
+li {
+    margin-bottom: 2rem;
 }
 
 /*ヘッダー
@@ -108,11 +118,26 @@ nav ul {
     display: none;
 }
 }
-    
-/*メイン画像
+
+/* header copy
 -------------------------------------*/
-.mainimg img {
-    width: 30vw;
+.head-copy {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    padding: 2rem 5rem 5rem 5rem;
+}
+
+.download-icon {
+    margin-top: 2rem;
+    display: flex;
+}
+
+/* problem
+-------------------------------------*/
+.problem {
+    padding-left: 5rem;
+    font-size: 1.8rem;
 }
 
 /*メインコンテンツ
