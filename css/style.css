@@ -137,7 +137,14 @@ nav ul {
 /* problem
 -------------------------------------*/
 .problem {
-    padding-left: 5rem;
+    padding-left: 10rem;
+    font-size: 1.8rem;
+}
+
+/* resolve
+-------------------------------------*/
+.resolve {
+    padding-left: 10rem;
     font-size: 1.8rem;
 }
 
