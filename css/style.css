@@ -148,6 +148,39 @@ nav ul {
     font-size: 1.8rem;
 }
 
+/* プロフィール
+-------------------------------------*/
+.profile {
+    padding-left: 10rem;
+    font-size: 1.8rem;
+}
+
+.highlight {
+    color: red;
+    font-size: 2.0rem;
+}
+
+/* explanation
+-------------------------------------*/
+.explanation {
+    padding-left: 10rem;
+    font-size: 1.8rem;
+}
+
+
+/* download
+-------------------------------------*/
+.download {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.download-icon-wrap {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
 /*メインコンテンツ
 -------------------------------------*/
 main {
