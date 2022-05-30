@@ -28,6 +28,12 @@ li {
     margin-bottom: 2rem;
 }
 
+h2 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem;
+}
+
 /*ヘッダー
 -------------------------------------*/
 .header {
@@ -141,40 +147,32 @@ nav ul {
 /* problem
 -------------------------------------*/
 .problem {
-    font-size: 1.8rem;
 }
 
 /* resolve
 -------------------------------------*/
 .badResolve {
-    font-size: 1.8rem;
 }
 
 .resolve {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-top: 5rem;
 }
 
-/* プロフィール
--------------------------------------*/
-.profile {
-    font-size: 1.8rem;
-}
 
 .highlight {
     color: red;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .bold {
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
 }
 
 /* explanation
 -------------------------------------*/
 .explanation {
-    font-size: 1.8rem;
 }
 
 .explanation-image {
@@ -186,14 +184,13 @@ nav ul {
 /* goodThings
 -------------------------------------*/
 .goodThings {
-    font-size: 2.3rem;
 }
 
 /* download
 -------------------------------------*/
 .download {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .download-icon-wrap {
