@@ -146,13 +146,13 @@ nav ul {
 
 /* problem
 -------------------------------------*/
-.problem {
-}
+/* .problem {
+} */
 
 /* resolve
 -------------------------------------*/
-.badResolve {
-}
+/* .badResolve {
+} */
 
 .resolve {
     font-size: 2.0rem;
@@ -172,19 +172,18 @@ nav ul {
 
 /* explanation
 -------------------------------------*/
-.explanation {
-}
+/* .explanation {
+} */
 
 .explanation-image {
     height: 50rem;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 /* goodThings
 -------------------------------------*/
-.goodThings {
-}
+/* .goodThings {
+} */
 
 /* download
 -------------------------------------*/

@@ -13,6 +13,9 @@
     <link rel="stylesheet" media="all" href="css/ress.min.css" />
     <link rel="stylesheet" media="all" href="css/style.css" />
     <link rel="stylesheet" media="all" href="css/carousel.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/style.js"></script>
@@ -123,21 +126,36 @@
               下記の５つのステップを繰り返し行うことであなたの英作文力を<span class="highlight">飛躍的</span>に向上させます。<br />
               <br />
               <br />
-              <ol>
-                <li>簡単な質問に対して自分の考えを自由に日本語で書く</li>
-                <img alt="簡単な質問に対して自分の考えを自由に日本語で書く" src="img/1.png" class="explanation-image" />
-                <li>書いた日本語を頑張って英語に変換する</li>
-                <img alt="書いた日本語を頑張って英語に変換する" src="img/2.png" class="explanation-image" />
-                <li>変換した英語が正しく伝わっているか確認する</li>
-                <img alt="変換した英語が正しく伝わっているか確認する" src="img/3.png" class="explanation-image" />
-                <li>お手本の自然な英語を確認し、言い回しなどを覚える</li>
-                <img alt="andrお手本の自然な英語を確認し、言い回しなどを覚えるoid" src="img/4.png" class="explanation-image" />
-                <li>再度、日本語を頑張って英語に変換する</li>
-                <img alt="再度、日本語を頑張って英語に変換する" src="img/5.png" class="explanation-image" />
-              </ol>
-              <!-- カルーセルtest -->
-              
-              <!-- カルーセルtest -->
+              <div class="wrapper carousel">
+              <div class="sample-slick">
+                <div class="slick carousel">
+                  <div>
+                    <div class="item">
+                      <img alt="簡単な質問に対して自分の考えを自由に日本語で書く" src="img/1.png" class="explanation-image" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="item">
+                      <img alt="書いた日本語を頑張って英語に変換する" src="img/2.png" class="explanation-image" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="item">
+                      <img alt="変換した英語が正しく伝わっているか確認する" src="img/3.png" class="explanation-image" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="item">
+                      <img alt="andrお手本の自然な英語を確認し、言い回しなどを覚えるoid" src="img/4.png" class="explanation-image" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="item">
+                      <img alt="再度、日本語を頑張って英語に変換する" src="img/5.png" class="explanation-image" />
+                    </div>
+                  </div>
+                </div>
+              </div></div>
             </div>
           </div>
         </div>
@@ -187,5 +205,23 @@
       <a href="#">Copyright © tom-shumi.</a>
     </div>
     <p id="pagetop"><a href="#">TOP</a></p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+    <script type="text/javascript">
+      $(document).ready(() => {
+        $(".sample-slick .slick").slick({
+          infinite: true, // ループの有効化
+          dots: true, // ドットインジケーターの表示
+        });
+      });
+      $(document).ready(() => {
+        $(".sample-slick-fade .slick").slick({
+          infinite: true, // ループの有効化
+          dots: true, // ドットインジケーターの表示
+          fade: true, // フェードアニメーションを有効化
+        });
+      });
+    </script>
   </body>
 </html>

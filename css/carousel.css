@@ -1,0 +1,24 @@
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+.slick-next {
+    right: 10px;
+}
+.slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+.slick-dots {
+    bottom: 10px;
+}
+
+.item {
+    text-align: center;
+    display: table;
+}
+
+.carousel {
+    margin: 0px 10px 0px 10px;
+    width: 280px;
+}
